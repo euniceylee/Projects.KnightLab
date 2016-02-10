@@ -1,0 +1,51 @@
+h1.logo-mark.xl {
+	text-align: center;
+}
+
+h2.intro {
+	text-align: center;
+}
+
+#intro2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+p.lead {
+	text-align: center;
+	margin-right: 350px;
+	margin-left: 350px;
+	padding-bottom: 30px;
+}
+
+div.storytelling {
+	text-align: center;
+}
+
+div.research-and-report {
+	text-align: center;
+}
+div.teach {
+	text-align: center;
+}
+
+div.etc {
+	text-align: center;
+}
+
+/*header#projects {
+	background-color: #f3f3f3
+}*/
+
+img#learn-image {
+	width: 600px;
+	height: 350px;
+	text-align: center;
+	float: center;
+	box-shadow: 3px 2px 2px 1px #ccc
+}
+
+div#list {
+	text-align: left
+}
+
