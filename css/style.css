@@ -42,7 +42,22 @@ img#learn-image {
 	height: 350px;
 	text-align: center;
 	float: center;
+	filter: brightness(100%);
+	-webkit-filter: brightness(100%);
+	-moz-filter: brightness(100%);
+	-o-filter: brightness(100%);
+	-ms-filter: brightness(100%);
 	box-shadow: 3px 2px 2px 1px #ccc
+}
+
+img#learn-image:hover
+{
+	filter: brightness(30%);
+	-webkit-filter: brightness(30%);
+	-moz-filter: brightness(30%);
+	-o-filter: brightness(30%);
+	-ms-filter: brightness(30%);
+
 }
 
 div#list {
