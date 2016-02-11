@@ -18,6 +18,10 @@ p.lead {
 	padding-bottom: 30px;
 }
 
+li {
+    list-style-type: none;
+}
+
 div.storytelling {
 	text-align: center;
 }
@@ -33,9 +37,9 @@ div.etc {
 	text-align: center;
 }
 
-/*header#projects {
+header#opening {
 	background-color: #f3f3f3
-}*/
+}
 
 img#learn-image {
 	width: 600px;
@@ -57,10 +61,17 @@ img#learn-image:hover
 	-moz-filter: brightness(30%);
 	-o-filter: brightness(30%);
 	-ms-filter: brightness(30%);
-
 }
 
 div#list {
 	text-align: left
+}
+
+/*Images */
+
+img #image1 {
+	height: 350px;
+	width: 190px;
+	border: 5px;
 }
 
