@@ -1,5 +1,15 @@
 h1.logo-mark.xl {
 	text-align: center;
+	background-color: #f3f3f3;
+	margin-top: 0px !important;
+}
+
+header#opening.hero-unit.compact {
+	background-color: #f3f3f3;
+}
+
+h3.intro {
+	text-align: center;
 }
 
 h2.intro {
@@ -13,8 +23,8 @@ h2.intro {
 
 p.lead {
 	text-align: center;
-	margin-right: 450px;
-	margin-left: 450px;
+	margin-right: 250px;
+	margin-left: 250px;
 	padding-bottom: 30px;
 }
 
@@ -80,6 +90,25 @@ ul.small-block-grid-3 {
 }
 
 img.th {
-	width: 250px;
+	width: 260px;
 	height: 150px;
 }
+
+img.th
+{
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+}
+
+img.th:hover
+{
+	filter: blur(0);
+	-webkit-filter: blur(0);
+	-moz-filter: blur(0);
+	-o-filter: blur(0);
+	-ms-filter: blur(0);
+}
+
