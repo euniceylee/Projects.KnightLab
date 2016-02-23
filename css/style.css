@@ -1,11 +1,11 @@
 h1.logo-mark.xl {
 	text-align: center;
-	background-color: #f3f3f3;
+/*	background-color: #f3f3f3;*/
 	margin-top: 0px !important;
 }
 
 header#opening.hero-unit.compact {
-	background-color: #f3f3f3;
+/*	background-color: #f3f3f3;*/
 }
 
 h3.intro {
@@ -26,6 +26,13 @@ p.lead {
 	margin-right: 250px;
 	margin-left: 250px;
 	padding-bottom: 30px;
+}
+
+div.callout.panel {
+	text-align: center;
+	border-radius: 10px;
+/*	background-color: #f3f3f3;
+	border-color: #f3f3f3;*/
 }
 
 li {
