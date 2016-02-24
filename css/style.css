@@ -5,7 +5,13 @@ h1.logo-mark.xl {
 }
 
 header#opening.hero-unit.compact {
+	margin-top: 40px;
 /*	background-color: #f3f3f3;*/
+}
+
+div.all-tools {
+	margin-right: 200px;
+	margin-left: 200px;
 }
 
 h3.intro {
@@ -25,7 +31,6 @@ p.lead {
 	text-align: center;
 	margin-right: 250px;
 	margin-left: 250px;
-	padding-bottom: 30px;
 }
 
 div.callout.panel {
