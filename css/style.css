@@ -10,8 +10,8 @@ header#opening.hero-unit.compact {
 }
 
 div.all-tools {
-	margin-right: 200px;
-	margin-left: 200px;
+	margin-right: 11%;
+	margin-left: 11%;
 }
 
 h3.intro {
@@ -64,7 +64,7 @@ div.etc {
 	background-color: #f3f3f3
 }*/
 
-img#learn-image {
+/*img#learn-image {
 	width: 600px;
 	height: 350px;
 
@@ -83,7 +83,7 @@ img#learn-image:hover
 	-moz-filter: brightness(30%);
 	-o-filter: brightness(30%);
 	-ms-filter: brightness(30%);
-}
+}*/
 
 div#list {
 	text-align: left
@@ -107,15 +107,17 @@ img.th {
 	height: 150px;
 }
 
-img.th
+/*For blurring*/
+
+/*img.th
 {
 	filter: blur(2px);
 	-webkit-filter: blur(2px);
 	-moz-filter: blur(2px);
 	-o-filter: blur(2px);
 	-ms-filter: blur(2px);
-}
-
+}*/
+/*
 img.th:hover
 {
 	filter: blur(0);
@@ -124,4 +126,25 @@ img.th:hover
 	-o-filter: blur(0);
 	-ms-filter: blur(0);
 }
+*/
+
+img.th
+{
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+}
+
+img.th:hover
+{
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+}
+
+
 
