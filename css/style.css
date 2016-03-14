@@ -128,13 +128,14 @@ img.th:hover
 }
 */
 
+/*Black and white to color hover*/
 img.th
 {
-	filter: grayscale(1);
-	-webkit-filter: grayscale(1);
-	-moz-filter: grayscale(1);
-	-o-filter: grayscale(1);
-	-ms-filter: grayscale(1);
+	filter: grayscale(0.5);
+	-webkit-filter: grayscale(0.5);
+	-moz-filter: grayscale(0.5);
+	-o-filter: grayscale(0.5);
+	-ms-filter: grayscale(0.5);
 }
 
 img.th:hover
